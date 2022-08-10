@@ -1,0 +1,27 @@
+let frutas = [];
+let laticínios = [];
+let congelados = [];
+let doces = [];
+    
+    do
+      {
+      produto=prompt("Deseja adicionar algo a lista de compras?");
+      {if (produto=="Não")
+        continue;
+      }
+      comida=prompt("Qual comida você deseja adicionar?");
+      categoria=prompt("Em qual categoria " + comida + " se insere?");
+        if (categoria=="frutas")
+            frutas.push(comida);
+          else if 
+            (categoria=="laticínios")
+            laticínios.push(comida);
+          else if 
+            (categoria=="congelados")
+            congelados.push(comida);
+          else 
+            doces.push(comida);
+      }
+      while (produto=="Sim")
+
+console.log("Frutas: " + frutas, "Latícinios: " + laticínios, "Congelados: " + congelados, "Doces: " + doces);
